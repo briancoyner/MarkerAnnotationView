@@ -1,4 +1,4 @@
-# MKMarkerAnnotationView Center Y-Offset But
+# MKMarkerAnnotationView Center Y-Offset Bug
 
 ## Bug Report ID
 
