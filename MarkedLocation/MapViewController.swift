@@ -20,7 +20,7 @@ extension MapViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        title = "MKMarkerAnnotationView Y-Offset Bug"
+        title = "Y-Offset Bug"
 
         view.addSubview(mapView)
         NSLayoutConstraint.activate([

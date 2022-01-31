@@ -18,6 +18,8 @@ extension AppDelegate {
         window?.rootViewController = UINavigationController(rootViewController: mainViewController)
         window?.makeKeyAndVisible()
 
+        initializeDefaultAppearance()
+
         return true
     }
 }
@@ -28,3 +30,30 @@ extension AppDelegate {
         return UIWindow()
     }
 }
+
+extension AppDelegate {
+
+    private func initializeDefaultAppearance() {
+        initializeDefaultNavigationBarAppearance()
+        initializeDefaultTabBarAppearance()
+    }
+
+    private func initializeDefaultNavigationBarAppearance() {
+        let appearance = UINavigationBarAppearance()
+        appearance.configureWithDefaultBackground()
+
+        let navigationBarAppearance = UINavigationBar.appearance()
+        navigationBarAppearance.standardAppearance = appearance
+        navigationBarAppearance.scrollEdgeAppearance = appearance
+    }
+
+    private func initializeDefaultTabBarAppearance() {
+        let appearance = UITabBarAppearance()
+        appearance.configureWithDefaultBackground()
+
+        let tabBarAppearance = UITabBar.appearance()
+        tabBarAppearance.standardAppearance = appearance
+        tabBarAppearance.scrollEdgeAppearance = appearance
+    }
+}
+
