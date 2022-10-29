@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5D2487D71FB6381D0004D5E7 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 5D2487D61FB6381D0004D5E7 /* readme.md */; };
+		5DC2C201290DD653002305B3 /* MarkerAnnotation_Unselected_Ok.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DC2C1FE290DD653002305B3 /* MarkerAnnotation_Unselected_Ok.png */; };
+		5DC2C203290DDA84002305B3 /* MarkerAnnotation_Selected_Wrong.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DC2C202290DDA84002305B3 /* MarkerAnnotation_Selected_Wrong.png */; };
+		5DC2C205290DDAD6002305B3 /* MarkerAnnotation_AppliedFix.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DC2C204290DDAD6002305B3 /* MarkerAnnotation_AppliedFix.png */; };
 		E9E146641FB4CB1900E0D5D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E146631FB4CB1900E0D5D3 /* AppDelegate.swift */; };
 		E9E146661FB4CB1900E0D5D3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E146651FB4CB1900E0D5D3 /* MapViewController.swift */; };
 		E9E1466B1FB4CB1900E0D5D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9E1466A1FB4CB1900E0D5D3 /* Assets.xcassets */; };
@@ -17,11 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5D1CDBD624CCBB3300B245B2 /* MarkerAnnotation_Selected_Wrong.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = MarkerAnnotation_Selected_Wrong.jpeg; path = ../MarkerAnnotation_Selected_Wrong.jpeg; sourceTree = "<group>"; };
-		5D1CDBD724CCBB3400B245B2 /* MarkerAnnotation_AppliedFix.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = MarkerAnnotation_AppliedFix.jpeg; path = ../MarkerAnnotation_AppliedFix.jpeg; sourceTree = "<group>"; };
-		5D1CDBD824CCBB3400B245B2 /* MarkerAnnotation_Unselected_Ok.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = MarkerAnnotation_Unselected_Ok.jpeg; path = ../MarkerAnnotation_Unselected_Ok.jpeg; sourceTree = "<group>"; };
 		5D2487D61FB6381D0004D5E7 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = SOURCE_ROOT; };
 		5D2487D81FB638DF0004D5E7 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SampleCode.xcconfig; sourceTree = "<group>"; };
+		5DC2C1FE290DD653002305B3 /* MarkerAnnotation_Unselected_Ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MarkerAnnotation_Unselected_Ok.png; sourceTree = "<group>"; };
+		5DC2C202290DDA84002305B3 /* MarkerAnnotation_Selected_Wrong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MarkerAnnotation_Selected_Wrong.png; path = ../../../Desktop/MarkerAnnotation_Selected_Wrong.png; sourceTree = "<group>"; };
+		5DC2C204290DDAD6002305B3 /* MarkerAnnotation_AppliedFix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MarkerAnnotation_AppliedFix.png; sourceTree = "<group>"; };
 		E9E146601FB4CB1900E0D5D3 /* MarkedLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarkedLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E146631FB4CB1900E0D5D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9E146651FB4CB1900E0D5D3 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -70,9 +73,9 @@
 				E9E1466C1FB4CB1900E0D5D3 /* LaunchScreen.storyboard */,
 				E9E1466F1FB4CB1900E0D5D3 /* Info.plist */,
 				5D2487D81FB638DF0004D5E7 /* SampleCode.xcconfig */,
-				5D1CDBD724CCBB3400B245B2 /* MarkerAnnotation_AppliedFix.jpeg */,
-				5D1CDBD624CCBB3300B245B2 /* MarkerAnnotation_Selected_Wrong.jpeg */,
-				5D1CDBD824CCBB3400B245B2 /* MarkerAnnotation_Unselected_Ok.jpeg */,
+				5DC2C202290DDA84002305B3 /* MarkerAnnotation_Selected_Wrong.png */,
+				5DC2C1FE290DD653002305B3 /* MarkerAnnotation_Unselected_Ok.png */,
+				5DC2C204290DDAD6002305B3 /* MarkerAnnotation_AppliedFix.png */,
 				5D2487D61FB6381D0004D5E7 /* readme.md */,
 			);
 			path = MarkedLocation;
@@ -138,9 +141,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DC2C205290DDAD6002305B3 /* MarkerAnnotation_AppliedFix.png in Resources */,
 				E9E1466E1FB4CB1900E0D5D3 /* LaunchScreen.storyboard in Resources */,
+				5DC2C203290DDA84002305B3 /* MarkerAnnotation_Selected_Wrong.png in Resources */,
 				5D2487D71FB6381D0004D5E7 /* readme.md in Resources */,
 				E9E1466B1FB4CB1900E0D5D3 /* Assets.xcassets in Resources */,
+				5DC2C201290DD653002305B3 /* MarkerAnnotation_Unselected_Ok.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +303,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KC5B683642;
 				INFOPLIST_FILE = MarkedLocation/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,7 +323,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KC5B683642;
 				INFOPLIST_FILE = MarkedLocation/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

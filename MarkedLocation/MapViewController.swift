@@ -131,7 +131,7 @@ extension MapViewController {
                 coordinate: CLLocationCoordinate2D(latitude: 28.4191, longitude: -81.5771)
             ),
             RideAnnotation(
-                title: "Pirates of the Carribean",
+                title: "Pirates of the Caribbean",
                 coordinate: CLLocationCoordinate2D(latitude: 28.4181, longitude: -81.5846)
             )
         ]

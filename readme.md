@@ -4,27 +4,27 @@
 
 FB8153662 (MKMarkerAnnotationView center y-offset is incorrect when selected)
 
-**Note:** this is still broken in iOS 15.
+**Note:** This is still broken in iOS 16.
 
 ## Screen shots
 
 **The marker view’s unselected state looks correct**
 
 
-![Marker Annotation Unselected Is Ok](MarkerAnnotation_Unselected_Ok.jpeg)
+![Marker Annotation Unselected Is Ok](MarkerAnnotation_Unselected_Ok.png)
 
 ----
 
 **The marker view’s selected center y-offset appears to be off by 3.5 points. The center of the marker view’s “dot” should be in the center of the “green annotation”** 
 
-![Marker Annotation Selected Is Wrong](MarkerAnnotation_Selected_Wrong.jpeg)
+![Marker Annotation Selected Is Wrong](MarkerAnnotation_Selected_Wrong.png)
 
 ----
 
 **Uncomment the “did select” code in the sample project to force adjust the center y-offset. This is what the user expects to see but does not see.**
 
 
-![Marker Annotation Applied Fix](MarkerAnnotation_AppliedFix.jpeg)
+![Marker Annotation Applied Fix](MarkerAnnotation_AppliedFix.png)
 
 ----
 
