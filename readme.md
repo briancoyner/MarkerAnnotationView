@@ -4,7 +4,7 @@
 
 FB8153662 (MKMarkerAnnotationView center y-offset is incorrect when selected)
 
-**Note:** This is still broken in iOS 16.
+**Note:** This is broken in iOS 16, iOS 17, and **iOS 18**.
 
 ## Screen shots
 
